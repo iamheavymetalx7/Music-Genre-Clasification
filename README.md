@@ -11,5 +11,8 @@ In order to save time during computations, no need to run the cell having the co
 study = optuna.create_study(direction="maximize")
 study.optimize(objective, n_trials=50, timeout = 4*60*60)
 
-This is because, I have already enliste the best parameters that I obtained after this command and if we run the above mentioned cell, hypertuning will take a lot of time.
+ 
+This is because, I have already enlisted the best parameters that I obtained after this command and if we run the above mentioned cell, hypertuning will take a lot of time.
+ 
+4. I have run the codes containing LGBM and XGB on kaggle, so one might need to import LGBM and XGBM environment so that the code runs smoothly.
 
